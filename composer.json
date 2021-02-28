@@ -1,5 +1,5 @@
 {
-	"name": "consistence/consistence",
+	"name": "consistence-community/consistence",
 	"description": "Consistence - consistent approach and additions to PHP's functionality",
 	"keywords": ["enum", "array", "time", "format", "strict", "type", "check"],
 	"license": "MIT",
@@ -18,6 +18,9 @@
 		"php-parallel-lint/php-parallel-lint": "1.2.0",
 		"phing/phing": "2.16.4",
 		"phpunit/phpunit": "9.5.2"
+	},
+	"replace": {
+		"consistence/consistence": "2.*"
 	},
 	"autoload": {
 		"psr-4": { "Consistence\\": [ "src" ] },

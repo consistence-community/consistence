@@ -1,6 +1,11 @@
 Consistence
 ===========
 
+**This package is a fork of [`consistence/consistence`](https://github.com/consistence/consistence) maintained by community to support new PHP versions.**
+
+---
+
+
 PHP offers a lot of handy functionality, but due to its organic growth this is not always easily usable. The aim of this library is to provide consistent approach to PHP's functionality. This means:
 
 * clear and consistent naming patterns
@@ -12,10 +17,10 @@ PHP offers a lot of handy functionality, but due to its organic growth this is n
 Installation
 ------------
 
-Install package [`consistence/consistence`](https://packagist.org/packages/consistence/consistence) with [Composer](https://getcomposer.org/):
+Install package [`consistence-community/consistence`](https://packagist.org/packages/consistence-community/consistence) with [Composer](https://getcomposer.org/):
 
 ```bash
-composer require consistence/consistence
+composer require consistence-community/consistence
 ```
 
 There are no further steps needed, you can start using Consistence whenever suitable in your codebase, see features below.
@@ -24,8 +29,8 @@ There are no further steps needed, you can start using Consistence whenever suit
 
 If you are using one of the following libraries/frameworks, check out these integrations:
 
-* [Doctrine ORM integration](https://github.com/consistence/consistence-doctrine) provides integration to store Consistence value objects in database through entities, there is also [Symfony bundle with this integration](https://github.com/consistence/consistence-doctrine-symfony)
-* [JMS Serializer integration](https://github.com/consistence/consistence-jms-serializer) provides integration to (de)serialize Consistence value objects, there is also [Symfony bundle with this integration](https://github.com/consistence/consistence-jms-serializer-symfony)
+* [Doctrine ORM integration](https://github.com/consistence-community/consistence-doctrine) provides integration to store Consistence value objects in database through entities, there is also [Symfony bundle with this integration](https://github.com/consistence-community/consistence-doctrine-symfony)
+* [JMS Serializer integration](https://github.com/consistence-community/consistence-jms-serializer) provides integration to (de)serialize Consistence value objects, there is also [Symfony bundle with this integration](https://github.com/consistence-community/consistence-jms-serializer-symfony)
 
 Documentation & features
 ------------------------
